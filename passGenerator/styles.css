@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script&family=Playwrite+AU+QLD:wght@100..400&family=Playwrite+HU:wght@100..400&display=swap");
+
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: url(https://t4.ftcdn.net/jpg/06/25/30/61/360_F_625306116_nW90DHo7sz91Mi87db0UF5iv5Rn8diBQ.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper .card {
+  width: 50%;
+  background-color: rgba(240, 248, 255, 0.637);
+  height: 50%;
+  padding: 1em;
+  box-shadow: 0 0 20px black;
+  border-radius: 20px;
+}
+
+.wrapper .card form input#password {
+  transition: border 0.3s ease-in-out;
+  width: 80%;
+  height: 2em;
+  padding: .8em;
+  background-color: transparent;
+  border: none;
+  border-left: 5px solid rgb(224, 224, 71);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  color: darkgreen;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+
+
+.wrapper .card form input#password:focus {
+  border: none;
+  border-bottom: 5px solid beige;
+  outline: none;
+}
+
+
+
+.wrapper .card form input[type="submit"] {
+  width: 40%;
+  height: 3em;
+  border-radius: 1em;
+  color: aliceblue;
+  font-weight: bolder;
+  border: none;
+  margin-top: 1em;
+  background-color: cornflowerblue;
+  transition: all 0.7s ease-in-out;
+}
+
+.wrapper .card form input[type="submit"]:active{
+  transform: scale(0.98);
+  position: relative;
+  right: -5px;
+  box-shadow: -40px 0 20px linear-gradient(yellow);
+}
+
+
