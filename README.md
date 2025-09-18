@@ -2,13 +2,14 @@
 
 **multi tiny projects**
 
-Este repositorio reúne una colección de pequeños proyectos desarrollados con HTML, CSS y JavaScript. El objetivo principal es experimentar, aprender y compartir ideas sobre distintos enfoques y tecnologías web.
+Este repositorio reúne una colección de pequeños proyectos desarrollados con HTML, CSS y JavaScript y PHP. El objetivo principal es experimentar, aprender y compartir ideas sobre distintos enfoques y tecnologías web.
 
 ## Tecnologías utilizadas
 
 - **HTML**  
 - **CSS**  
-- **JavaScript**  
+- **JavaScript**
+- **PHP**
 
 ## Estructura
 
