@@ -15,10 +15,10 @@ function binarySearchRecursive($array, $target, $low = 0, $hight= null){
     if($target === $array[$mid]){
         return $mid;
     }elseif($target < $array[$mid]){
-        binarySearch($array, $target, $low, $mid - 1);
+       return binarySearchRecursive($array, $target, $low, $mid - 1);
     }else{
 
-        binarySearch($array, $target, $mid + 1, $hight);
+      return  binarySearchRecursive($array, $target, $mid + 1, $hight);
     }
 }
 
